@@ -5,6 +5,6 @@ const router  = require('./routes/gymrouter')
 app.use(express.urlencoded({extended:false}))
 app.use(express.json())
 
-app.use('/', router)
+app.use('/gym', router)
 
 module.exports=app;
