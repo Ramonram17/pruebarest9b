@@ -9,7 +9,7 @@ const ejercicioEschema = mongoose.Schema({
         type:String,
         require:true
     }, 
-    duracion:{
+    duracionMin:{
         type:Number,
         require:true
     },
